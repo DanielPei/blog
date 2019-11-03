@@ -1,0 +1,5 @@
+This is the index.ejs file.
+
+<% site.posts.forEach(function(post){ %>
+	<li><a href="<%- post.path %>"><%- post.title %></a></li>
+<% }) %>
