@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
-tags:
+date: {{ date }}
 author: Daniel
+tags:
+categories: 
 ---
-
-Default Content
+This is a post

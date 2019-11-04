@@ -1,5 +1,5 @@
 ---
-title: Deploy hexo blog to githubPage
+title: 01-Deploy hexo blog to githubPage
 date: 2019-10-31 23:56:14
 tags: [ "Hexo" ]
 author: Daniel
