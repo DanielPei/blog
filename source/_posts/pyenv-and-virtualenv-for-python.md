@@ -8,8 +8,6 @@ categories:
 - [python, tools]
 ---
 
-[TOC]
-
 **pyenv** 与 **virtualenv** 是两个目的不同的 python 环境管理工具。
 
 **pyenv** ： **版本切换**。用于在多个不同的python版本之间进行切换并互不影响。

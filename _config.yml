@@ -40,8 +40,8 @@ external_link:
   exclude:
 filename_case: 0
 render_drafts: false
-# post_asset_folder: false
-post_asset_folder: true
+post_asset_folder: false
+# post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -91,10 +91,18 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: next
-theme: landscape
+theme: next
+# theme: landscape
 # theme: ad
 # theme: my-themes
+
+
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

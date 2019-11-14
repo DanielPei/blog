@@ -99,3 +99,7 @@ modify the theme in _config.yml
 ``` bash
 
 ```
+
+
+# ref
+https://pengloo53.gitbooks.io/hexo/content/chapter2/7%20添加文章目录.html
