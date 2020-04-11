@@ -11,13 +11,13 @@ categories:
 
 Enable local search for hexo blog with **next** theme.
 
-# 1. Install **Local Search** plugin.
+# Install **Local Search** plugin.
 
 ``` bash
 npm install hexo-generator-searchdb --save
 ```
 
-# 2. Edit site config : **_config.yml**
+# Edit site config : **_config.yml**
 ``` bash
 # Add these config to any position.
 search:
@@ -27,14 +27,14 @@ search:
   limit: 10000
 ```
 
-# 3. Edit theme config : **themes/next/_config.yml**
+# Edit theme config : **themes/next/_config.yml**
 ``` bash
 # Local search
 local_search:
   enable: true
 ```
 
-# 4. Restart your blog.
+# Restart your blog.
 ``` bash
 hexo server
 ```

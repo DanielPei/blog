@@ -10,7 +10,7 @@ categories:
 date: 2019-11-06 22:09:26
 ---
 
-# 1. Install **sphinx** and **sphinx-rtd-theme**
+# Install **sphinx** and **sphinx-rtd-theme**
 ``` bash
 workon py3dev 
 
@@ -20,7 +20,7 @@ pip install sphinx-rtd-theme
 pip list
 ```
 
-# 2. Init a project with sphinx.
+# Init a project with sphinx.
 ``` bash
 mkdir sphinx_demo
 
@@ -41,10 +41,10 @@ tree -L 1
 └── src 		# user defined folder for python modules and scripts.
 ```
 
-# 3. Config sphinx.
+# Config sphinx.
 Edit **source/conf.py**
 
-3.1 Set python source folder.
+## Set python source folder.
 
 ``` python
 # add those lines.
@@ -55,20 +55,20 @@ sys.path.insert(0, os.path.abspath('../src/'))
 
 ```
 
-3.2 Enable autodoc plugins.
+## Enable autodoc plugins.
 ``` python
 extensions = [
     'sphinx.ext.autodoc'
 ]
 ```
 
-3.3 Enable read-the-doc theme.
+## Enable read-the-doc theme.
 
 ``` python
 html_theme = 'sphinx_rtd_theme'
 ```
 
-# 4. Build sphinx docs.
+# Build sphinx docs.
 ``` bash
 make html 	# build the docs by html builder.
 

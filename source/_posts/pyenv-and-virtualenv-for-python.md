@@ -24,7 +24,7 @@ categories:
 
 
 
-## 1. 安装
+# 安装
 ``` bash
 brew update
 brew install pyenv
@@ -51,7 +51,7 @@ source ~/.zshrc
 
 ```
 
-## 2. pyenv
+# pyenv
 
 **场景**：Mac 自带的 python 版本为 2.7，遇到一个项目 *py3_project* 使用 python 3.X 的一些新特性，这时就需要用到 pyenv 将 python 版本临时切换到 3.X (随时可以一条命令再切换回来）。
 
@@ -122,7 +122,7 @@ Some useful pyenv commands are:
    whence      List all Python versions that contain the given executable
 ```
 
-## 3. virtualenv  + virtualenvwrapper
+# virtualenv  + virtualenvwrapper
 **场景**：同时有两个项目 A 和 B，都需要使用 request 包，但由于外部依赖或兼容老系统等原因，A 和 B 需要使用的 request 包的版本有差异。此时，可以创建两个不同的虚拟环境，在各自的环境下分别安装对应版本的 request 包。
 
 
@@ -148,7 +148,7 @@ rmvirtualenv py3dev
 
 ```
 
-## 4. Task ： 分别创建 python 2.X 和 python 3.X 的虚拟环境
+# Task ： 分别创建 python 2.X 和 python 3.X 的虚拟环境
 
 python 2.X 虚拟环境创建
 ``` bash

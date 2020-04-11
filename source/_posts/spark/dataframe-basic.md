@@ -13,7 +13,7 @@ categories:
 
 
 # Hive 数据源相关信息
-## 查看 hive 数据源信息
+查看 hive 数据源信息
 ``` python
 # 查看 hive 数据库
 spark.sql("show databases;").show()
