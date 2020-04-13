@@ -22,6 +22,7 @@ categories:
 - 快速激活／去激活某个 virtualenv 创建的虚拟环境；
 
 
+<!-- more -->
 
 
 # 安装

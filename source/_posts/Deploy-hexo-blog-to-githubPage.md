@@ -11,6 +11,8 @@ cd hexo_project
 npm install hexo-deployer-git --save
 ```
 
+<!-- more -->
+
 2. Edit **_config.yml**
 ``` yml
 deploy:

@@ -13,6 +13,8 @@ This is a post
 
 Pydoc can be used to access the doc for python modules or classes easily. We will show the basic command for the pydoc.
 
+<!-- more -->
+
 1. **Show help for pydoc**
 ``` bash
 pydoc -h

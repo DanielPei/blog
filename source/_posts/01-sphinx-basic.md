@@ -20,6 +20,8 @@ pip install sphinx-rtd-theme
 pip list
 ```
 
+<!-- more -->
+
 # Init a project with sphinx.
 ``` bash
 mkdir sphinx_demo

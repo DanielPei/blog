@@ -17,6 +17,9 @@ Enable local search for hexo blog with **next** theme.
 npm install hexo-generator-searchdb --save
 ```
 
+<!-- more -->
+
+
 # Edit site config : **_config.yml**
 ``` bash
 # Add these config to any position.

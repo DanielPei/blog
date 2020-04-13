@@ -11,9 +11,10 @@ categories:
 # 简介
 本篇主要记录 **pyspark** 操作 **dataframe** 的常见基本操作，以 **hive** 作为数据源进行示例。
 
+<!-- more -->
 
 # Hive 数据源相关信息
-查看 hive 数据源信息
+cd 查看 hive 数据源信息
 ``` python
 # 查看 hive 数据库
 spark.sql("show databases;").show()
