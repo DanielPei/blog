@@ -1,5 +1,5 @@
 ---
-title: post
+title: Graph-neo4j-Basic-01
 author: Daniel
 date: 2020-04-18 17:01:49
 tags: neo4j
